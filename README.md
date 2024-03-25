@@ -1,7 +1,7 @@
 # Programming Concepts in JS
-*Practice Assignment*
 *March 25th, 2024*
 
+Practice Assignment
 - Assigment 1 : Create user object from form inputs and display
 - Assignment 2 : fetch and display data from local JSON file using XMLHttpRequest
 - Assignment 3 : fetch and display data from public api 
