@@ -1,4 +1,4 @@
-# Practice assignment - Programming Concepts in JS
+# Programming Concepts in JS
 *March 25th, 2024*
 
 - Assigment 1 : Create user object from form inputs and display
