@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+
+
+
+
+# Logs and databases
+.log
+
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.bak
+
+# Build artifacts
+/dist/
+/tmp/
+/out/
+/build/
+*.tmp
+*.temp
