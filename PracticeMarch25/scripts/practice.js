@@ -1,39 +1,35 @@
 /***Question 1***/
-// Array to hold all user objects
-// var users = [];
+// Initialize array to hold users
+var users = [];
 
-// function User(n, a) {
-//   this.name = n;
-//   this.age = a;
-// }
+function User(n, a) {
+  this.name = n;
+  this.age = a;
+}
 
-// function makeObj() {
-//   var name = document.getElementById("name").value;
-//   var age = document.getElementById("age").value;
+function makeObj() {
+  var name = document.getElementById("name").value;
+  var age = document.getElementById("age").value;
 
-//   // Add the new User object to the users array
-//   users.push(new User(name, age));
+  users.push(new User(name, age));
 
-//   // Clear the input fields after adding the user
-//   document.getElementById("name").value = "";
-//   document.getElementById("age").value = "";
-// }
+  document.getElementById("name").value = "";
+  document.getElementById("age").value = "";
+}
 
-// function displayObj() {
-//   // Clear the current display
-//   var displayArea = document.getElementById("displayArea");
-//   displayArea.innerHTML = "";
+function displayObj() {
+  //clear display
+  var displayArea = document.getElementById("displayArea");
+  displayArea.innerHTML = "";
 
-//   // Iterate over the users array and display each user
-//   users.forEach(function (user) {
-//     displayArea.innerHTML +=
-//       "Name: " + user.name + "<br>Age: " + user.age + "<br><br>";
-//   });
-// }
+  users.forEach(function (user) {
+    displayArea.innerHTML +=
+      "Name: " + user.name + "<br>Age: " + user.age + "<br><br>";
+  });
+}
 
-// Change the onclick handlers to function references instead of function calls
-// document.getElementById("makeButton").onclick = makeObj;
-// document.getElementById("displayButton").onclick = displayObj;
+document.getElementById("makeButton").onclick = makeObj;
+document.getElementById("displayButton").onclick = displayObj;
 
 /***Question 2***/
 function showJson() {
